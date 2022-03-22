@@ -9,4 +9,8 @@ public class Leurre extends Canard{
 	public String afficher() {
 		return "Je suis un leurre";
 	}
+	@Override
+	public String effectuerVol() {
+		return "Je ne sais pas voler !";
+	}
 }

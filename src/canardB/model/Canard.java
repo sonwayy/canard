@@ -1,6 +1,8 @@
 package canardB.model;
 
-public class Canard {
+import canardB.model.vol.ComportementVol;
+
+public class Canard implements ComportementVol{
 	
 	private String name;
 	public Canard(String name){
@@ -17,6 +19,9 @@ public class Canard {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String effectuerVol() {
+		return ComportementVol.voler();
 	}
 	
 }

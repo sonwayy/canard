@@ -9,4 +9,8 @@ public class Mandarin extends Canard{
 	public String afficher() {
 		return "Je suis un vrai mandarin";
 	}
+	@Override
+	public String effectuerVol() {
+		return "Je vole !";
+	}
 }

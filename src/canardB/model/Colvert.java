@@ -1,5 +1,8 @@
 package canardB.model;
 
+import canardB.model.vol.ComportementVol;
+import canardB.model.vol.VolerAvecDesAiles;
+
 public class Colvert extends Canard{
 	private String name;
 	public Colvert(String name) {
@@ -8,5 +11,9 @@ public class Colvert extends Canard{
 	@Override
 	public String afficher() {
 		return "Je suis un vrai colvert";
+	}
+	@Override
+	public String effectuerVol() {
+		return "Je vole !";
 	}
 }
