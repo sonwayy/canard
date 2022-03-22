@@ -1,5 +1,6 @@
 package canardB.model;
 
+import canardB.model.cancan.ComportementCancan;
 import canardB.model.vol.ComportementVol;
 
 public class Canard implements ComportementVol{
@@ -22,6 +23,9 @@ public class Canard implements ComportementVol{
 	}
 	public String effectuerVol() {
 		return ComportementVol.voler();
+	}
+	public String effectuerCancan() {
+		return ComportementCancan.cacaner();
 	}
 	
 }

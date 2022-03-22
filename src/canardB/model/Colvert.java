@@ -16,4 +16,8 @@ public class Colvert extends Canard{
 	public String effectuerVol() {
 		return "Je vole !";
 	}
+	@Override
+	public String effectuerCancan() {
+		return "Can-can";
+	}
 }

@@ -13,4 +13,8 @@ public class CanardEnPlastique extends Canard{
 	public String effectuerVol() {
 		return "Je ne sais pas voler !";
 	}
+	@Override
+	public String effectuerCancan() {
+		return "Coin-coin";
+	}
 }

@@ -13,4 +13,8 @@ public class Mandarin extends Canard{
 	public String effectuerVol() {
 		return "Je vole !";
 	}
+	@Override
+	public String effectuerCancan() {
+		return "Can-can";
+	}
 }
